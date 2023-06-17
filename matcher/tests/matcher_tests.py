@@ -1,8 +1,10 @@
+# Matcher (C) 2023 sejeanm
+
 import unittest
 
 import sys
 sys.path.append('../')
-from main import played_together, load2, get_player_names, get_players_with_not_played, find_matching, find_matching_sure
+from matcher import played_together, load2, get_player_names, get_players_with_not_played, find_matching, find_matching_sure
 
 
 GRID_FILE = 'input/grid2.csv'
